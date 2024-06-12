@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Branding",
+    "image": "./c1.jpg"
+  },
+  {
+    "name": "UI/UX",
+    "image": "./c2.jpg"
+  },
+  {
+    "name": "Graphic Design",
+    "image": "./c3.jpg"
+  },
+  {
+    "name": "3D Design",
+    "image": "./c4.jpg"
+  },
+  {
+    "name": "Branding",
+    "image": "./c5.jpg"
+  }
+]

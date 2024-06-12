@@ -1,0 +1,138 @@
+.contact-wrapper {
+  position: relative;
+  color: white;
+  padding: 2rem 0 1rem 0;
+  background-color: var(--gray);
+}
+.contact-wrapper img {
+  height: 38rem;
+  position: relative;
+  width: 81rem;
+  left: 2rem;
+  border-radius: 2%;
+}
+.underImage {
+  width: 100%;
+  padding-left: 3rem;
+}
+.contact-title {
+  padding-bottom: 2rem;
+}
+.underImage {
+  z-index: 3;
+  position: absolute;
+}
+.contact-title > h1 {
+  position: relative;
+  bottom: 1.5rem;
+  font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 2rem 0 0 2rem;
+}
+.contact-form {
+  display: flex;
+  padding-left: 4rem;
+  flex-direction: column;
+  allign-items: start;
+  gap: 20px;
+}
+
+.con-left span {
+  font-size: 1.4rem;
+}
+
+.contact-inputs {
+  height: 2rem;
+  width: 21 rem;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+}
+.dropdown {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  color: #666666;
+}
+
+.contact-form button {
+  display: flex;
+  position: relative;
+  top: 4rem;
+  justify-content: flex-end;
+  allign-item: center;
+  font-size: 1rem;
+  gap: 20rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.con-container-space {
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.location {
+  padding: 0 6rem;
+}
+.socials {
+  padding: 0 6rem 0 0;
+}
+.links {
+  padding: 0 1rem 0 1rem;
+}
+.underline {
+  text-decoration: underline;
+}
+.con-container-foot {
+  justify-content: space-between;
+  padding-top: 8rem;
+}
+.con-container-foot > span {
+  position: relative;
+  top: 0.5rem;
+}
+.con-page-arrow {
+  position: relative;
+  top: 0.5rem;
+  width: 2rem;
+  display: inline-block;
+  fill: white;
+}
+@media (max-width: 1120px) {
+  .contact-wrapper {
+    position: static;
+  }
+  .contact-wrapper img {
+    height: 0px;
+    weight: 0px;
+  }
+  .underImage {
+    background: var(--gray);
+  }
+}
+@media (max-width: 1053px) {
+  .contact-form button {
+    position: relative;
+    top: 1.5rem;
+  }
+}
+@media (max-width: 517px) {
+  .location {
+    padding: 0 4rem;
+  }
+  .social-text-twitter {
+    position: relative;
+    top: 40px;
+    right: 90px;
+  }
+  .social-text-insta {
+    position: relative;
+    top: 80px;
+    right: 155px;
+  }
+}
